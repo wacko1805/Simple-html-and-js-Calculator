@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+        body {
+            background-color: black;
+            font-family: 'Source Code Pro', monospace;
+        }
+        table {
+            width: 100%;
+            height: 50%;
+        }
+		input[type="button"] 
+		{ 
+            font-family: 'Source Code Pro', monospace;
+            border-radius: 2px;
+            border: none;
+            transition: 0.3s;
+		    background-color:#839b97; 
+		    color: black; 
+            height: 100%;
+		    width:100% 
+		} 
+        input[type="button"]:hover {
+            background-color: #16a596;
+            cursor: pointer;
+            color: white;
+        }
+		input[type="text"] 
+		{ 
+            transition: 0.3s;
+            padding-left: 20px;
+            font-family: 'Source Code Pro', monospace;
+            border-radius: 2px;
+            border: none;
+            background-color:#839b97; 
+            height: 100%;
+		    width:100% 
+		} 
+
+        input[type="text"]:hover {
+            background-color: #16a596;
+        }
+        table {
+            border: none;
+        }
+        td {
+            border: none;
+
+        }
+        .main {
+            padding-left: 35%;
+            padding-right: 35%;
+            padding-top: 10%;
+        }
+        @media only screen and (max-width: 600px) {
+            .main {
+            padding-left: 5%;
+            padding-right: 5%;
+            padding-top: 10%;
+        }
+        }
+        .btn2 {
+            background-color: tomato;
+        }
